@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Hourglass Studios</title>
+  <meta name="description" content="Get in touch with Hourglass Studios. Visit us, message us, or join the community." />
+  <link rel="icon" type="image/svg+xml" href="assets/logo/logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo"><img src="assets/logo/logo.svg" alt="Hourglass Studios" /></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="classes.html">Classes</a></li>
+        <li><a href="community.html">Community</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="classes.html" class="btn btn-primary nav-cta">Book a class <span class="arrow">→</span></a></li>
+      </ul>
+      <button class="nav-burger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+  <div class="nav-mobile">
+    <a href="index.html">Home</a><a href="about.html">About</a><a href="classes.html">Classes</a>
+    <a href="community.html">Community</a><a href="testimonials.html">Testimonials</a><a href="contact.html">Contact</a>
+    <a href="classes.html" class="btn btn-primary" style="margin-top:1rem;">Book a class →</a>
+  </div>
+
+  <section class="page-hero">
+    <div class="hero-bg"><span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span></div>
+    <div class="container" style="position:relative; z-index:2;">
+      <span class="eyebrow">Say hi</span>
+      <h1>Let's <em class="gradient-text">talk.</em></h1>
+      <p>Whether you’re booking your first class, looking to host an event, or just want to chat — we’d love to hear from you.</p>
+    </div>
+  </section>
+
+  <!-- Contact split -->
+  <section>
+    <div class="container split">
+      <div>
+        <span class="eyebrow reveal">Get in touch</span>
+        <h2 class="reveal delay-1">We're <em class="gradient-text">here</em> for you.</h2>
+        <p class="reveal delay-2">Drop us a line and we'll get back to you within a day. For urgent questions, give us a call or pop in — the kettle is always on.</p>
+
+        <div class="reveal delay-3" style="margin-top:2.5rem; display:grid; gap:1.4rem;">
+          <div style="display:flex; gap:1rem; align-items:flex-start;">
+            <div class="feature-icon" style="width:48px; height:48px; flex-shrink:0; font-size:1.2rem;">📍</div>
+            <div>
+              <strong style="display:block; margin-bottom:0.2rem;">Visit the studio</strong>
+              <span style="color:var(--ink-soft);">123 Studio Lane,<br/>Sydney NSW, Australia</span>
+            </div>
+          </div>
+          <div style="display:flex; gap:1rem; align-items:flex-start;">
+            <div class="feature-icon" style="width:48px; height:48px; flex-shrink:0; font-size:1.2rem;">📞</div>
+            <div>
+              <strong style="display:block; margin-bottom:0.2rem;">Call or text</strong>
+              <a href="tel:+61400000000" style="color:var(--ink-soft);">+61 400 000 000</a>
+            </div>
+          </div>
+          <div style="display:flex; gap:1rem; align-items:flex-start;">
+            <div class="feature-icon" style="width:48px; height:48px; flex-shrink:0; font-size:1.2rem;">✉️</div>
+            <div>
+              <strong style="display:block; margin-bottom:0.2rem;">Email us</strong>
+              <a href="mailto:hello@hourglassstudios.com.au" style="color:var(--ink-soft);">hello@hourglassstudios.com.au</a>
+            </div>
+          </div>
+          <div style="display:flex; gap:1rem; align-items:flex-start;">
+            <div class="feature-icon" style="width:48px; height:48px; flex-shrink:0; font-size:1.2rem;">⏰</div>
+            <div>
+              <strong style="display:block; margin-bottom:0.2rem;">Studio hours</strong>
+              <span style="color:var(--ink-soft);">Mon–Fri · 6am – 9pm<br/>Sat–Sun · 7am – 6pm</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="reveal-scale" style="background:white; padding:2.4rem; border-radius:var(--radius-lg); border:1px solid var(--line); box-shadow: var(--shadow-soft);">
+        <h3 style="margin-bottom: 1.5rem;">Send us a message</h3>
+        <form data-form>
+          <div class="form-grid">
+            <div class="field">
+              <label>First name</label>
+              <input type="text" required placeholder="Jess"/>
+            </div>
+            <div class="field">
+              <label>Last name</label>
+              <input type="text" required placeholder="Lee"/>
+            </div>
+            <div class="field full">
+              <label>Email</label>
+              <input type="email" required placeholder="hello@yourdomain.com"/>
+            </div>
+            <div class="field full">
+              <label>I'm interested in…</label>
+              <select>
+                <option>Trying my first class</option>
+                <option>Becoming a member</option>
+                <option>Booking a private session</option>
+                <option>Hosting an event / workshop</option>
+                <option>Something else</option>
+              </select>
+            </div>
+            <div class="field full">
+              <label>Message</label>
+              <textarea placeholder="Tell us a little about what you're looking for…"></textarea>
+            </div>
+            <div class="full">
+              <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">Send message <span class="arrow">→</span></button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map placeholder strip -->
+  <section style="padding-top:0;">
+    <div class="container">
+      <div class="reveal-scale" style="position:relative; border-radius: var(--radius-lg); overflow: hidden; aspect-ratio: 21/9; box-shadow: var(--shadow-soft);">
+        <iframe
+          src="https://www.openstreetmap.org/export/embed.html?bbox=151.2073%2C-33.8765%2C151.2173%2C-33.8665&layer=mapnik"
+          style="border:0; width:100%; height:100%;"
+          loading="lazy"
+          title="Hourglass Studios location">
+        </iframe>
+        <div style="position:absolute; bottom:1.5rem; left:1.5rem; background:white; padding:1rem 1.4rem; border-radius:var(--radius-md); box-shadow:var(--shadow-soft); display:flex; align-items:center; gap:0.8rem;">
+          <img src="assets/logo/logo.svg" alt="" style="height:32px;"/>
+          <div>
+            <strong style="display:block;">Hourglass Studios</strong>
+            <span style="font-size:0.85rem; color:var(--ink-soft);">123 Studio Lane, Sydney</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" style="background: var(--paper);">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">FAQs</span>
+        <h2>Questions, <em class="gradient-text">answered.</em></h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item reveal delay-1">
+          <button class="faq-q">Is my first class really free? <span class="plus">+</span></button>
+          <div class="faq-a"><div>Yes! Your first class is on us — any format, any time. Just mention it when you arrive, or message us in advance and we'll set it up.</div></div>
+        </div>
+        <div class="faq-item reveal delay-1">
+          <button class="faq-q">I'm a complete beginner. Will I be okay? <span class="plus">+</span></button>
+          <div class="faq-a"><div>Absolutely. Every class has modifications and our teachers will guide you. We recommend starting with Mat Pilates, Vinyasa Flow, or our beginners-friendly reformer classes.</div></div>
+        </div>
+        <div class="faq-item reveal delay-2">
+          <button class="faq-q">Do I need to bring anything? <span class="plus">+</span></button>
+          <div class="faq-a"><div>Just yourself, water, and grippy socks for reformer/Pilates classes (we sell them at the studio if you forget). Mats and props are provided.</div></div>
+        </div>
+        <div class="faq-item reveal delay-2">
+          <button class="faq-q">How do I book a class? <span class="plus">+</span></button>
+          <div class="faq-a"><div>Through our <a href="classes.html#schedule">Momence schedule</a> on the Classes page. You can also use the Momence app on your phone.</div></div>
+        </div>
+        <div class="faq-item reveal delay-3">
+          <button class="faq-q">Can I freeze my membership? <span class="plus">+</span></button>
+          <div class="faq-a"><div>Yes — you can pause your membership anytime, no questions asked. Just message us or use your Momence account.</div></div>
+        </div>
+        <div class="faq-item reveal delay-3">
+          <button class="faq-q">Do you offer private sessions? <span class="plus">+</span></button>
+          <div class="faq-a"><div>Yes. 1:1 reformer, Pilates and yoga sessions are available — get in touch via the form above to arrange.</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section>
+    <div class="container">
+      <div class="cta-banner reveal-scale">
+        <h2>We can't wait to meet you.</h2>
+        <p>Book your first free class now and experience Hourglass for yourself.</p>
+        <a href="classes.html" class="btn">Book a class <span class="arrow">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo-row"><img src="assets/logo/logo.svg" alt="Hourglass Studios" /></div>
+          <p>A community-driven movement studio. Built on connection, breath and the belief that every body belongs.</p>
+          <div class="socials">
+            <a href="https://www.instagram.com/hourglassstudios_hs/" target="_blank" rel="noopener" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+            <a href="mailto:hello@hourglassstudios.com.au" aria-label="Email"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></a>
+          </div>
+        </div>
+        <div><h4>Studio</h4><ul><li><a href="about.html">About</a></li><li><a href="community.html">Community</a></li><li><a href="testimonials.html">Testimonials</a></li></ul></div>
+        <div><h4>Move</h4><ul><li><a href="classes.html">Classes</a></li><li><a href="classes.html#schedule">Schedule</a></li><li><a href="classes.html#pricing">Pricing</a></li></ul></div>
+        <div><h4>Connect</h4><ul><li><a href="contact.html">Contact</a></li><li><a href="https://www.instagram.com/hourglassstudios_hs/" target="_blank" rel="noopener">Instagram</a></li><li><a href="contact.html#faq">FAQs</a></li></ul></div>
+      </div>
+      <div class="footer-bottom"><span>© <span id="year">2025</span> Hourglass Studios. Made with care.</span><span>hourglassstudios.com.au</span></div>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script src="js/main.js"></script>
+</body>
+</html>

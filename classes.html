@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Classes &amp; Schedule — Hourglass Studios</title>
+  <meta name="description" content="Browse class types, view our live timetable and book your next session at Hourglass Studios." />
+  <link rel="icon" type="image/svg+xml" href="assets/logo/logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo"><img src="assets/logo/logo.svg" alt="Hourglass Studios" /></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="classes.html">Classes</a></li>
+        <li><a href="community.html">Community</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#schedule" class="btn btn-primary nav-cta">Book a class <span class="arrow">→</span></a></li>
+      </ul>
+      <button class="nav-burger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+  <div class="nav-mobile">
+    <a href="index.html">Home</a><a href="about.html">About</a><a href="classes.html">Classes</a>
+    <a href="community.html">Community</a><a href="testimonials.html">Testimonials</a><a href="contact.html">Contact</a>
+    <a href="#schedule" class="btn btn-primary" style="margin-top:1rem;">Book a class →</a>
+  </div>
+
+  <section class="page-hero">
+    <div class="hero-bg"><span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span></div>
+    <div class="container" style="position:relative; z-index:2;">
+      <span class="eyebrow">What we offer</span>
+      <h1>Find your <em class="gradient-text">favourite class.</em></h1>
+      <p>From sunrise reformer to candle-lit yin — over 40 weekly classes for every body and every mood.</p>
+    </div>
+  </section>
+
+  <!-- Class types -->
+  <section>
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Class types</span>
+        <h2>Pick your <em class="gradient-text">vibe.</em></h2>
+      </div>
+      <div class="classes-grid">
+        <div class="class-card reveal delay-1">
+          <img src="https://images.unsplash.com/photo-1592432678016-e910b452f9a2?w=700&q=80" alt="Reformer Pilates" loading="lazy"/>
+          <div class="meta"><span class="tag">Signature · 50 min</span><h3>Reformer Pilates</h3><p>Strong, slow and supremely satisfying.</p></div>
+        </div>
+        <div class="class-card reveal delay-2">
+          <img src="https://images.unsplash.com/photo-1518310383802-640c2de311b2?w=700&q=80" alt="Mat Pilates" loading="lazy"/>
+          <div class="meta"><span class="tag">Pilates · 45 min</span><h3>Mat Pilates</h3><p>Core, control, and a whole lot of fun.</p></div>
+        </div>
+        <div class="class-card reveal delay-3">
+          <img src="https://images.unsplash.com/photo-1575052814086-f385e2e2ad1b?w=700&q=80" alt="Vinyasa" loading="lazy"/>
+          <div class="meta"><span class="tag">Yoga · 60 min</span><h3>Vinyasa Flow</h3><p>Move with breath, end with bliss.</p></div>
+        </div>
+        <div class="class-card reveal delay-4">
+          <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=700&q=80" alt="Yin" loading="lazy"/>
+          <div class="meta"><span class="tag">Restore · 60 min</span><h3>Yin &amp; Sound</h3><p>Candles, stillness, vibration. Pure restoration.</p></div>
+        </div>
+        <div class="class-card reveal delay-1">
+          <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=700&q=80" alt="Strength" loading="lazy"/>
+          <div class="meta"><span class="tag">Strength · 50 min</span><h3>Strength + Mobility</h3><p>Build power, gain range, feel unstoppable.</p></div>
+        </div>
+        <div class="class-card reveal delay-2">
+          <img src="https://images.unsplash.com/photo-1599447332411-fd1b1ab97f43?w=700&q=80" alt="Pre Natal" loading="lazy"/>
+          <div class="meta"><span class="tag">Specialty · 50 min</span><h3>Pre &amp; Post Natal</h3><p>A safe, supported space for new and expecting mums.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== MOMENCE SCHEDULE WIDGET ============== -->
+  <section id="schedule" style="background: var(--paper);">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Live timetable</span>
+        <h2>Book your <em class="gradient-text">spot.</em></h2>
+        <p>Powered by Momence — log in, browse classes and reserve in seconds.</p>
+      </div>
+      <div class="momence-widget reveal">
+        <!--
+          ====================================================
+          MOMENCE SCHEDULE WIDGET
+          Replace the iframe src below with your actual Momence
+          schedule embed URL.
+
+          1) Log in to Momence Studio Dashboard
+          2) Settings → Integrations → Embed Widgets
+          3) Copy the "Schedule" widget embed code
+          4) Paste in place of the iframe src OR replace the
+             entire iframe with the <script> embed Momence gives you
+          ====================================================
+        -->
+        <iframe
+          src="https://app.momence.com/embed/schedule/HOURGLASS-STUDIO-ID?primaryColor=7c3aed&accentColor=10b981"
+          title="Hourglass Studios — Class Schedule"
+          allow="payment"
+          loading="lazy">
+        </iframe>
+        <noscript>
+          <div class="momence-fallback">
+            <p>The schedule requires JavaScript. Please enable it or visit our Momence page directly.</p>
+          </div>
+        </noscript>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Memberships &amp; passes</span>
+        <h2>Simple, <em class="gradient-text">transparent pricing.</em></h2>
+        <p>No lock-ins. Pause anytime. Cancel anytime.</p>
+      </div>
+      <div class="price-grid">
+        <div class="price-card reveal delay-1">
+          <h3>Casual</h3>
+          <div class="amount">$32 <span class="per">/ class</span></div>
+          <ul>
+            <li>Drop-in to any class</li>
+            <li>Valid across all studios</li>
+            <li>No commitment</li>
+          </ul>
+          <a href="#schedule" class="btn btn-ghost" style="width:100%; justify-content:center;">Book a class</a>
+        </div>
+        <div class="price-card featured reveal delay-2">
+          <span class="badge">Most loved</span>
+          <h3>Unlimited Member</h3>
+          <div class="amount">$59 <span class="per">/ week</span></div>
+          <ul>
+            <li>Unlimited classes, all formats</li>
+            <li>Member-only events &amp; workshops</li>
+            <li>10% off retail &amp; café</li>
+            <li>Bring a friend, free, every month</li>
+          </ul>
+          <a href="#schedule" class="btn" style="background:white; color:var(--purple-700); width:100%; justify-content:center;">Start unlimited</a>
+        </div>
+        <div class="price-card reveal delay-3">
+          <h3>10 Class Pack</h3>
+          <div class="amount">$280 <span class="per">/ pack</span></div>
+          <ul>
+            <li>10 classes, any format</li>
+            <li>Valid for 6 months</li>
+            <li>Shareable with one friend</li>
+          </ul>
+          <a href="#schedule" class="btn btn-ghost" style="width:100%; justify-content:center;">Buy a pack</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section>
+    <div class="container">
+      <div class="cta-banner reveal-scale">
+        <span class="eyebrow" style="color: rgba(255,255,255,0.85); -webkit-text-fill-color: rgba(255,255,255,0.85); background: none;">First class free</span>
+        <h2>New to the studio?</h2>
+        <p>Try any class for free. We'll be there to welcome you at the door.</p>
+        <a href="contact.html" class="btn">Claim your free class <span class="arrow">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo-row"><img src="assets/logo/logo.svg" alt="Hourglass Studios" /></div>
+          <p>A community-driven movement studio. Built on connection, breath and the belief that every body belongs.</p>
+          <div class="socials">
+            <a href="https://www.instagram.com/hourglassstudios_hs/" target="_blank" rel="noopener" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+            <a href="mailto:hello@hourglassstudios.com.au" aria-label="Email"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></a>
+          </div>
+        </div>
+        <div><h4>Studio</h4><ul><li><a href="about.html">About</a></li><li><a href="community.html">Community</a></li><li><a href="testimonials.html">Testimonials</a></li></ul></div>
+        <div><h4>Move</h4><ul><li><a href="classes.html">Classes</a></li><li><a href="classes.html#schedule">Schedule</a></li><li><a href="classes.html#pricing">Pricing</a></li></ul></div>
+        <div><h4>Connect</h4><ul><li><a href="contact.html">Contact</a></li><li><a href="https://www.instagram.com/hourglassstudios_hs/" target="_blank" rel="noopener">Instagram</a></li><li><a href="contact.html#faq">FAQs</a></li></ul></div>
+      </div>
+      <div class="footer-bottom"><span>© <span id="year">2025</span> Hourglass Studios. Made with care.</span><span>hourglassstudios.com.au</span></div>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script src="js/main.js"></script>
+</body>
+</html>
