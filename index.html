@@ -60,7 +60,7 @@
   <header class="nav">
     <div class="container nav-inner">
       <a class="brand" href="index.html" aria-label="Hourglass Studios home">
-        <img src="assets/logo.svg" alt="" height="32">
+        <img src="assets/logo.svg" alt="Hourglass Studios" height="28">
         <span class="wordmark">HOURGLASS STUDIOS</span>
       </a>
       <nav class="nav-links" aria-label="Primary">
@@ -110,6 +110,8 @@
       <span class="ticker-item accent">·</span>
       <span class="ticker-item">Hot Yoga</span>
       <span class="ticker-item accent">·</span>
+      <span class="ticker-item">Mums &amp; Bubs Pilates</span>
+      <span class="ticker-item accent">·</span>
       <span class="ticker-item">No Lock-In Contracts</span>
       <span class="ticker-item accent">·</span>
       <span class="ticker-item">Chirnside Park</span>
@@ -122,6 +124,8 @@
       <span class="ticker-item">Les Mills</span>
       <span class="ticker-item accent">·</span>
       <span class="ticker-item">Hot Yoga</span>
+      <span class="ticker-item accent">·</span>
+      <span class="ticker-item">Mums &amp; Bubs Pilates</span>
       <span class="ticker-item accent">·</span>
       <span class="ticker-item">No Lock-In Contracts</span>
       <span class="ticker-item accent">·</span>
@@ -191,6 +195,16 @@
           <div class="card-body">
             <h3>Hot Yoga</h3>
             <p>Breath, heat and release. Flow sequences that build flexibility, calm the mind, and leave you centred.</p>
+          </div>
+        </article>
+
+        <article class="class-card featured-full reveal" style="background: linear-gradient(135deg, #2a0a3e, #7c3fa8);">
+          <span class="badge-unique">Only in Chirnside Park</span>
+          <img src="images/mums-bubs.jpg" alt="Mums &amp; Bubs Pilates class at Hourglass Studios" loading="lazy" onerror="this.style.display='none'">
+          <div class="card-body">
+            <p class="card-tag">Unique to Chirnside Park</p>
+            <h3>Mums &amp; Bubs</h3>
+            <p>The only Mums &amp; Bubs Pilates class in Chirnside Park. A safe, supportive space for new and expecting mums to rebuild strength, reconnect with their body, and find community — all with your little one by your side.</p>
           </div>
         </article>
       </div>
@@ -298,7 +312,23 @@
           --momenceColorBlack: 245, 240, 255;
         }
         </style>
-        <!-- MOMENCE_SCHEDULE_WIDGET_HERE -->
+        <div id="ribbon-schedule"></div>
+        <script
+          async
+          type="module"
+          host_id="41579"
+          teacher_ids="[]"
+          location_ids="[]"
+          tag_ids="[]"
+          show_additional_teachers="true"
+          show_substituted_teachers="true"
+          lite_mode="true"
+          hide_drop_in_price="true"
+          default_filter="show-all"
+          locale="en"
+          lock_timezone="Australia/Melbourne"
+          src="https://momence.com/plugin/host-schedule/host-schedule.js"
+        ></script>
       </div>
     </div>
   </section>
@@ -322,7 +352,18 @@
           --momenceBoxShadow: 0px 4px 24px rgba(0,0,0,0.3);
         }
         </style>
-        <!-- MOMENCE_TESTIMONIALS_WIDGET_HERE -->
+        <div id="momence-plugin-reviews"></div>
+        <script
+          async
+          type="module"
+          host_id="41579"
+          is_profile_picture_enabled="true"
+          is_text_only_enabled="true"
+          is_session_and_teacher_info_enabled="true"
+          layout="horizontal"
+          signature="dd767d72fd4f7c3f60dc4694a1601c1cbf82f0111b2ca6cb66ce0316593a3c74"
+          src="https://momence.com/plugin/reviews/reviews.js">
+        </script>
       </div>
     </div>
   </section>
@@ -333,7 +374,7 @@
       <div class="footer-grid">
         <div class="footer-col footer-brand">
           <a class="brand" href="index.html">
-            <img src="assets/logo.svg" alt="" height="32">
+            <img src="assets/logo.svg" alt="Hourglass Studios" height="28">
             <span class="wordmark">HOURGLASS STUDIOS</span>
           </a>
           <p class="tagline">discipline · confidence · freedom</p>
